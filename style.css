@@ -19,8 +19,15 @@ h1,h2,h3{
     color: white;
     transition: 1s;
 }
-
-@media screen and (max-width: 580px)  {
+button:hover{
+    color: black;
+    background-color: #FABE4C;
+    transition: 1s;
+}
+.forimg:hover{
+    background-color: rgba(6, 6, 6, 0.825);
+}
+@media screen and (max-width: 840px)  {
     .page-size{
         padding: 20px 20px;
     }
@@ -31,4 +38,15 @@ h1,h2,h3{
         border-radius: 5px;
         font-size: 12px;
     }
+}
+@media screen and (max-width: 1082px) {
+    #product-name{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 845px) {
+    #card-p{
+        padding: 4px;
+    }
+
 }
